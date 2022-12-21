@@ -4,10 +4,13 @@
   "version": "0.0.1",
   "license": "0BSD",
   "scripts": {
-    "build": "yarn workspace example build"
+    "develop": "yarn workspace gatsby-starter-default develop",
+    "build": "yarn workspace gatsby-starter-default build"
   },
   "workspaces": [
+    "gatsby-starter-default",
     "gatsby-theme-minimal",
-    "example"
+    "example",
+    "my-cra-app"
   ]
 }
