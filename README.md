@@ -13,6 +13,12 @@ https://reactjs.org/docs/create-a-new-react-app.html
 
 4. 调整整合到统一的 theme workspace 下.
 
+### run it: 
+`yarn workspace site develop`
+
+### check it:
+最后一个 menu 项: http://localhost:8000/theme1a/
+
 ---
 <p align="center">
   <a href="https://www.gatsbyjs.com">
