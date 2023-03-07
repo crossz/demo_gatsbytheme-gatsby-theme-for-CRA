@@ -3,23 +3,28 @@ MicroFontEnd Demo - 基于 Gatsby Theme + Yarn workspace
 参考官网的几个 demo,然后整合
 
 1. default starter: as default landing page
-https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-default
+   https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-default
 
-2. theme workspace starter: example as `/example`, gatsby-theme-minimal is empty. 
-https://github.com/gatsbyjs/gatsby-starter-theme-workspace
+2. theme workspace starter: example as `/example`, gatsby-theme-minimal is empty.
+   https://github.com/gatsbyjs/gatsby-starter-theme-workspace
 
-3. CRA demo: exported `App` React component to be imported into Gatsby page. 
-https://reactjs.org/docs/create-a-new-react-app.html
+3. CRA demo: exported `App` React component to be imported into Gatsby page.
+   https://reactjs.org/docs/create-a-new-react-app.html
 
 4. 调整整合到统一的 theme workspace 下.
 
-### run it: 
-`yarn workspace site develop`
+## RUN IT
 
-### check it:
-最后一个 menu 项: http://localhost:8000/theme1a/
+```
+yarn workspace gatsby-starter-default develop
+```
+
+## CHECK IT
+
+http://localhost:8000/page-2a/
 
 ---
+
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
