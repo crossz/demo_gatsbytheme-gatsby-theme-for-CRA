@@ -26,7 +26,6 @@ const App = ({ isMobile, lang }) => {
     console.log(lang);
 
     i18n.changeLanguage(lang);
-    console;
     ProtectedRoutes();
   }, [lang]);
 
