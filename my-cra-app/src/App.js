@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Translation } from "react-i18next";
@@ -11,6 +11,7 @@ import {
   Switch,
   Routes,
   Navigate,
+  Outlet,
 } from "react-router-dom";
 
 import "./i18n/i18n";
@@ -19,11 +20,43 @@ import i18n from "i18next";
 import { Box } from "@material-ui/core";
 const App = ({ isMobile, lang }) => {
   const matches = isMobile;
+
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   useEffect(() => {
     console.log(lang);
 
     i18n.changeLanguage(lang);
+    console;
+    ProtectedRoutes();
   }, [lang]);
+
+  const ProtectedRoutes = () => {
+    return isLoggedIn ? (
+      <Outlet />
+    ) : (
+      <Navigate to={"/login"} state={{ pathname: "/private" }} />
+    );
+  };
+
+  const Login = () => {
+    const location = useLocation();
+    const navigate = useNavigate();
+    console.log("lois check login location::---", location);
+    return (
+      <>
+        <h1>Login</h1>
+        <input placeholder="username" />
+        <button
+          onClick={() => {
+            setIsLoggedIn(true);
+            navigate(location.state.pathname || "/", { state: location });
+          }}
+        >
+          user login
+        </button>
+      </>
+    );
+  };
 
   return (
     <div className="App">
@@ -38,6 +71,9 @@ const App = ({ isMobile, lang }) => {
                 <Link to={`/about`}>About</Link>
               </li>
               <li>
+                <Link to={`/private`}>Private</Link>
+              </li>
+              {/* <li>
                 <Link
                   to={{
                     pathname: "/login",
@@ -47,7 +83,7 @@ const App = ({ isMobile, lang }) => {
                 >
                   去登录
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           {/* <Switch> */}
@@ -55,6 +91,11 @@ const App = ({ isMobile, lang }) => {
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/login" element={<Login />} />
+
+            <Route element={<ProtectedRoutes />}>
+              <Route path="/private" element={<Private />} />
+            </Route>
+
             {/* <Route path="/contact" component={Contact} /> */}
             {/*404 page*/}
             <Route render={() => <h1>404: page not found</h1>} />
@@ -109,12 +150,9 @@ const About = () => {
     </>
   );
 };
-const Login = () => {
-  const location = useLocation();
 
-  // const from = location.state?.from?.pathname || "/";
-  console.log("lois check login location::---", location);
-  return <h1>Login</h1>;
+const Private = () => {
+  return <h1>Welcome [username]! I'm Private Page</h1>;
 };
 
 export default App;
