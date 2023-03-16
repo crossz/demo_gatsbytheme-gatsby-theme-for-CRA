@@ -3,12 +3,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Translation } from "react-i18next";
 import {
-  HashRouter,
+  // HashRouter,
   useLocation,
   useNavigate,
   Route,
   Link,
-  Switch,
+  // Switch,
   Routes,
   Navigate,
   Outlet,
@@ -59,7 +59,7 @@ const App = ({ isMobile, lang }) => {
 
   return (
     <div className="App">
-      <HashRouter>
+      {/* <HashRouter> */}
         <main>
           <nav>
             <ul>
@@ -101,7 +101,7 @@ const App = ({ isMobile, lang }) => {
             {/* </Switch> */}
           </Routes>
         </main>
-      </HashRouter>
+      {/* </HashRouter> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

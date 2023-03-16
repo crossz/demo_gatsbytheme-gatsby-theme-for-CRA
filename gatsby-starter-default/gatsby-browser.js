@@ -5,3 +5,18 @@
  */
 
 // You can delete this file if you're not using it
+import React from 'react'
+// import ReactDOMServer from "react-dom/server";
+import { HashRouter } from "react-router-dom";
+
+const wrapRootElement = ({ element }) => {
+  return (
+    <HashRouter>
+      {element}
+    </HashRouter>
+    )
+}
+
+
+
+export { wrapRootElement }
