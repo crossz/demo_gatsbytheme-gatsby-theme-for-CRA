@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { App } from "my-cra-app"
+// import { App } from "my-cra-app"
+import { Index } from "gatsby-auth0--spa"
 import {
   Box,
   ThemeProvider,
@@ -22,13 +23,20 @@ function SecondPageCRA() {
     <ThemeProvider theme={themes}>
       <Layout>
         <h1>Hi from the hybrid second page</h1>
-        <p>Welcome to page 2 with CRA component</p>
+        {/* <p>Welcome to page 2 with CRA component</p>
         <Button onClick={() => setlang("cn")}>切换到中文</Button>
-        <Button onClick={() => setlang("en")}>切换到en</Button>
-        <App isMobile={matches} lang={lang} />
-        <Box color={matches ? "primary.main" : "secondary.main"}>
+        <Button onClick={() => setlang("en")}>切换到en</Button> */}
+
+
+        {/* <App isMobile={matches} lang={lang} /> */}
+
+
+        <Index />
+        
+        
+        {/* <Box color={matches ? "primary.main" : "secondary.main"}>
           内部使用在Gatsby
-        </Box>
+        </Box> */}
         <p>Welcome to page 2 with CRA component</p>
 
         <Link to="/">Go back to the homepage</Link>

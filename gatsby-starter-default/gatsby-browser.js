@@ -8,12 +8,16 @@
 import React from 'react'
 // import ReactDOMServer from "react-dom/server";
 import { HashRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
 const wrapRootElement = ({ element }) => {
   return (
-    <HashRouter>
-      {element}
-    </HashRouter>
+    // <BrowserRouter basename="/page-2a">
+    // <BrowserRouter>
+      <HashRouter>
+        {element}
+      </HashRouter>
+    // {/* </BrowserRouter> */}
     )
 }
 

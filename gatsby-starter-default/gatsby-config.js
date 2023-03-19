@@ -18,6 +18,7 @@ module.exports = {
     { resolve: `gatsby-theme-minimal`, options: {} },
     `example`,
     `my-cra-app`,
+    `gatsby-auth0--spa`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
