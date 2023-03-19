@@ -12,7 +12,7 @@ export const Auth0ProviderWithNavigate = ({ children }) => {
   // TODO: change to .evn
   const domain = "crosssz.us.auth0.com";
   const clientId = "DTsHYxdWXp1PG0aanWln8A3C5xksOcxj";
-  const redirectUri = "http://localhost:4040/page-2a/#/callback";
+  const redirectUri = "http://localhost:4040/#/whatever-callback";
   const audience = "http://localhost:6060";
 
   const onRedirectCallback = (appState) => {

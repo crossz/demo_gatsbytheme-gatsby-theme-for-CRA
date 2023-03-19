@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-// import { App } from "my-cra-app"
-import { Index } from "gatsby-auth0--spa"
+import { App } from "my-cra-app"
+// import { Index } from "gatsby-auth0--spa"
 import {
   Box,
   ThemeProvider,
@@ -28,10 +28,10 @@ function SecondPageCRA() {
         <Button onClick={() => setlang("en")}>切换到en</Button> */}
 
 
-        {/* <App isMobile={matches} lang={lang} /> */}
+        <App isMobile={matches} lang={lang} />
 
 
-        <Index />
+        {/* <Index /> */}
         
         
         {/* <Box color={matches ? "primary.main" : "secondary.main"}>
