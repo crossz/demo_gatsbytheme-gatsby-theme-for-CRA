@@ -1,0 +1,37 @@
+{
+    "options": {
+        "faq_types": {
+            "about_atome_payment": "About Atome Payment Method",
+            "about_npc": "About NPC",
+            "all": "All FAQ",
+            "book_online_and_pay_process": "Book Online and Pay Process",
+            "detection_service": "Detection Service",
+            "detection_technology": "Detection Technology",
+            "membership_program": "Membership Program",
+            "notes_and_result": "Notes and Result",
+            "price_and_service": "Price and Service",
+            "privacy_and_electronic_records": "Privacy and Electronic Records"
+        },
+        "regions": {
+            "all": "All Regions",
+            "east_of_hongkong_island": "Hong Kong Island East",
+            "hongkong": "Hong Kong",
+            "kowloon": "Kowloon",
+            "kowloon_central": "Kowloon Central",
+            "kowloon_east": "Kowloon East",
+            "kowloon_west": "Kowloon West",
+            "macao": "Macau",
+            "new_territories_east": "New Territories East",
+            "new_territories_north": "New Territories North",
+            "new_territories_west": "New Territories West",
+            "northeast_new_territories": "New Territories Northeast",
+            "northwest_new_territories": "New Territories Northwest",
+            "other": "Other Areas",
+            "southeast_new_territories": "New Territories Southeast",
+            "southwest_new_territories": "New Territories Southwest",
+            "west_of_hongkong_island": "Hong Kong Island West",
+            "Islands":"Islands"
+
+        }
+    }
+}

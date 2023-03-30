@@ -1,0 +1,792 @@
+{
+    "HomePage": {
+        "EH_Hero_Banner_Atome_KnowMore": "Atome新用戶獨家優惠",
+        "EH_Hero_Banner_Healthcheck_KnowMore": "全面體檢計劃 各大必檢項目 常見癌症指標檢驗",
+        "contact_us": "查詢產品須知、購買流程等, 請隨時與我們聯繫",
+        "get_support": "取得支援",
+        "hot_Production": "熱銷產品",
+        "latest_offers": "最新優惠"
+    },
+    "are_you_sure": {
+        "cancel_appointment": "您是否確認取消以下預約？",
+        "common": "您確定要{{action}}{{field}}嗎？",
+        "do_not_have_an_account": "未成為會員？{{action}}",
+        "forget_your_password": "忘記密碼",
+        "sign_out": "您確定要登出嗎？",
+        "you_have_unsaved_form": "資料還未保存，您確定要離開嗎？"
+    },
+    "commom": {
+        "card_type": "證件類型",
+        "contact": "聯絡方式"
+    },
+    "common": {
+        "English_name": "英文姓名",
+        "action": "更多選項",
+        "add_summary": "總計",
+        "apply": "申請",
+        "back": "返回",
+        "bind": "登記",
+        "booking": "預約",
+        "booking_date": "預約日期",
+        "cancel": "取消{{field}}",
+        "ch_full_name": "中文全名",
+        "change": "修改{{field}}",
+        "change_password": "修改密碼",
+        "changed_successfully": "修改{{field}}成功!",
+        "check_all": "查看全部",
+        "chinese_name": "中文姓名",
+        "confirm": "確定",
+        "contact_phone": "聯絡電話",
+        "copy": "複製",
+        "count_small": "小計",
+        "credit_or_other": "信用卡及其他",
+        "create_account": "建立帳戶",
+        "create_account_tip": "按“建立帳戶”，即表示您已閱讀並同意我們的",
+        "declare_duty": "免責聲明： 早期鼻咽癌篩查不建議已經進行器官移植人士、已患有其他癌症、自身免疫系統疾病、正接受全身性糖皮質激素及免疫抑制治療的人士使用。",
+        "detail": "{{field}}詳情",
+        "edit": "編輯{{field}}",
+        "email_address": "電郵地址",
+        "en_full_name": "英文全名",
+        "enter": "輸入{{field}}",
+        "fill_info": "填寫個人資料",
+        "filter": "篩選：共{{all}}結果",
+        "find": "找{{field}}",
+        "go_back_homepage": "返回首頁",
+        "go_on": "繼續",
+        "had_sign_out": "已登出",
+        "id_mumber": "身份證明文件號碼",
+        "id_type": "身份證明文件類型",
+        "id_type_number": "身份證明文件號碼",
+        "include_mumber": "包括字母及括號內的數字",
+        "intro": "{{field}}簡介",
+        "leave": "離開",
+        "list": "{{field}}列表",
+        "minute": "分",
+        "must_same": "須與身份證明文件相同",
+        "my": "我的",
+        "my_account": "我的帳戶",
+        "order_datail": "查看帳單概要",
+        "order_tips": "請注意：現在將轉往付款步驟，成功付款後，閣下之預約方為完成。",
+        "page_hone": "產品主頁",
+        "pay_date": "付款日期",
+        "product_list": "產品列表",
+        "promotion_menu": "推廣優惠",
+        "promotion_price": "折扣",
+        "refresh": "重試",
+        "refund": "退款",
+        "register": "註冊",
+        "reset": "重置",
+        "reset_pwd_tip": "請輸入您已註冊的電話號碼，我們將透過短訊，把驗證碼傳送給您，以重設密碼。",
+        "save": "保存",
+        "save_change": "保存更改",
+        "second": "秒",
+        "select_doctor": "選擇醫生",
+        "select_site": "選擇服務點",
+        "service_time": "服務時間",
+        "service_timeAndDate": "日期及時間",
+        "set": "設置{{field}}",
+        "set_new_pwd": "設置新密碼",
+        "signUp": "註冊會員",
+        "sign_in": "登入",
+        "sign_in_now": "立即登入",
+        "sign_out": "登出",
+        "sign_up": "登記",
+        "sign_up_now": "立即註冊",
+        "sign_up_user": "註冊會員",
+        "site": "服務點",
+        "step": "步驟",
+        "test_and_contact": "聯絡及測試者資料",
+        "test_info": "測試者資料",
+        "testcenter_phone": "電話",
+        "user_login": "會員登入",
+        "verification": "驗證",
+        "view": "查看",
+        "view_more": "查看更多"
+    },
+    "coomon": {
+        "back_my_bookig": "返回我的預約"
+    },
+    "faq": {
+        "cancerOrder": {
+            "0": "什麼原因令您未有完成剛才的預約程序？",
+            "1": "需填寫的資料太多",
+            "2": "不想透露個人私隱",
+            "3": "想再與親友商量",
+            "4": "價格太高",
+            "5": "忘記了優惠碼",
+            "6": "其他，請註明：",
+            "diff": {
+                "0": "登記帳戶時轉到電郵獲取驗證碼",
+                "1": "登入後要重新選擇產品、預約日期和時間",
+                "2": "按鈕指示不清晰"
+            },
+            "diffcult": "在預約過程中，您有沒有遇到困難？"
+        },
+        "cancer_refund": {
+            "1": "什麼原因促使您申請退款?",
+            "2": "未能更改預約時間",
+            "3": "欲更改預約的診所或醫生",
+            "4": "在本平台發現有更低的價格",
+            "5": "在其他平台發現有更低的價格"
+        },
+        "clarity": {
+            "0": "非常清晰",
+            "1": "清晰",
+            "2": "一般",
+            "3": "不清晰",
+            "4": "非常不清晰"
+        },
+        "diff": {
+            "0": "有",
+            "1": "沒有",
+            "3": "字體太小難以閱讀",
+            "4": "彈出式視窗提示過多",
+            "5": "文字太多",
+            "6": "填寫資料需花很多時間",
+            "7": "找不到輸入優惠碼的位置",
+            "8": "沒有我想使用的付款方法",
+            "9": "其他, 請描述詳情："
+        },
+        "difficulty": "在預約及付款過程中，您有沒有遇到困難？",
+        "finish": "完成",
+        "multi": "可選擇多於一項",
+        "must_writer": "請務必填寫選項",
+        "otherDiff": "您遇到什麼困難？",
+        "otheradvise": "其他意見",
+        "processClarity": "您認為本平台所顯示的資訊及預約流程指示清晰嗎？",
+        "refund_title": "請告訴我們您為何取消預約及申請退款？這將對我們持續提升本平台的服務質素有莫大幫助，謝謝！",
+        "satisfaction": "整體來說，您對於在本平台的購買過程的滿意度如何？",
+        "satisfy": {
+            "0": "非常滿意",
+            "1": "滿意",
+            "2": "一般",
+            "3": "不滿意",
+            "4": "非常不滿意",
+            "5": "無意見"
+        },
+        "subDescription": "您滿意剛才的預約及付款流程嗎？請告訴我們您的想法，這將對我們持續提升本平台的服務質素有莫大幫助，謝謝！",
+        "submit": "提交",
+        "submit_Faq": "提交意見",
+        "thanks": "感謝您提供的意見",
+        "title": "問卷調查"
+    },
+    "footer": {
+        "whatsapp": "WhatsApp客服"
+    },
+    "form": {
+        "account": "帳戶",
+        "add_user_info": "填寫帳戶資料",
+        "address": "地址",
+        "agree_to_receive_news": "我同意獲取Take2 Health所提供的最新推廣優惠和健康資訊。",
+        "all_program": "所有項目",
+        "appointment_program": "預約項目",
+        "area": "地區",
+        "birthday": "出生日期",
+        "cancer": "多項癌症篩查套餐",
+        "confirm_new_password": "確認新密碼",
+        "confirm_password": "確認密碼",
+        "email": "電郵",
+        "en_name": "英文全名",
+        "en_name_placeholder": "請輸入身份證上的英文全名",
+        "female": "女",
+        "gender": "性別",
+        "get_v_code": "獲取驗證碼",
+        "health_check": {
+            "anchor": {
+                "1": "體檢三大好處",
+                "2": "體檢套餐詳情",
+                "3": "服務特點"
+            },
+            "intro": "逾30項精選身體檢查項目，包括癌症篩查、血全像、肝腎功能、糖尿、血脂、甲狀腺、心臟功能及胸肺評估，由註冊醫生解釋報告。",
+            "product_name": "基本 / 全面體檢套餐",
+            "promotion": "優惠碼「NEW330」 即減$330",
+            "title": {
+                "2": "年年驗身，令你放心"
+            }
+        },
+        "id_info": "身份證資料",
+        "id_number": "身份證號碼",
+        "id_type": "證件選項",
+        "id_type_list": {
+            "0": "中國大陸身份證",
+            "1": "香港身份證",
+            "2": "澳門身份證",
+            "3": "護照"
+        },
+        "included": "(已包含Take2 Prophecy™)",
+        "input_code": "輸入驗證碼",
+        "language": "語言",
+        "male": "男",
+        "mobile": "手機",
+        "mobile_phone": "手機號碼",
+        "name": "姓名",
+        "new_password": "新密碼",
+        "npc": "早期鼻咽癌篩查",
+        "old_password": "目前密碼",
+        "password": "密碼",
+        "phone": "手機號碼",
+        "phone_type_list": {
+            "0": "香港手機號碼",
+            "1": "中國內地手機號碼",
+            "2": "澳門手機號碼"
+        },
+        "physical_examination": "全面體檢套餐",
+        "physical_examination_basic": "基本體檢套餐",
+        "physical_examination_man": "全面體檢套餐-男士",
+        "physical_examination_women": "全面體檢套餐-女士",
+        "place_of_issue": "簽發地",
+        "program": "項目",
+        "program_detail": "詳情",
+        "select": {
+            "2": "癌症篩查套餐（已包含Take2 Prophecy™）",
+            "3": "基本 / 全面體檢套餐（已包含Take2 Prophecy™）"
+        },
+        "sign_in_type": "登入方式",
+        "test_requisition_answer_list": {
+            "0": "是",
+            "1": "否",
+            "2": "不知道"
+        },
+        "test_requisition_list": {
+            "0": "在您的家族成員裡面，是否現有或曾有人患上鼻咽癌？（近親親屬如：父母、兄弟姐妹、子女、祖父母和叔伯等。) ",
+            "1": "您有曾經接受過鼻咽癌相關的檢查嗎？（如鼻內窺鏡、EB病毒DNA或血清學測試）",
+            "2": "您現時有以下徵狀嗎？（如：頸部出現腫塊、聽力下降、臉部疼痛或麻痺、頭痛、流鼻血、視力模糊或視覺重影等。）",
+            "3": "您是否有吸煙習慣？"
+        },
+        "v_code": "驗證碼",
+        "verification_type": "驗證方式",
+        "wechat": "微信號",
+        "zh_name": "中文全名",
+        "zh_name_placeholder": "請輸入身份證上的中文全名"
+    },
+    "glossary": {
+        " promotion_discount": "推廣優惠",
+        "about_take2": "關於Take2",
+        "account_info": "帳戶信息",
+        "account_setting": "帳戶設定",
+        "agreement": "條款及細則",
+        "all_promotion": "全部優惠",
+        "all_questions": "所有問題",
+        "all_rights_reserved": "版權所有",
+        "amount": "金額",
+        "apply_refund": "申請退款",
+        "appointment": "預約{{field}}",
+        "appointment_detail": "預約詳情",
+        "appointment_info": "預約信息",
+        "appointment_of_clinic": "按診所預約檢測",
+        "appointment_of_doctor": "按醫生預約檢測",
+        "appointment_order": "預約訂單",
+        "appointment_person": "預約人",
+        "appointment_process_list": {
+            "0": "選擇診所/醫生",
+            "1": "請選擇預約日期和時間",
+            "2": "確認預約信息",
+            "3": "網上支付",
+            "4": "預約成功",
+            "5": "選擇支付方式"
+        },
+        "appointment_summary": "預約訂單詳情",
+        "appointment_time": "預約時間",
+        "ask_clinic": "到診所進行抽血",
+        "available_date_time": "可供預約日期和時間",
+        "balance": "餘額",
+        "book_clinic_suits_you": "尋找最接近您的篩查地點",
+        "book_now": "立即預約",
+        "book_test": "預約檢測",
+        "booker": "預約者",
+        "booker_info": "預約者資料",
+        "booking_clinic": "預約診所",
+        "booking_date_and_time": "預約日期及時間",
+        "booking_doctor": "預約醫生",
+        "booking_full": "約滿",
+        "booking_fulled": "已约满",
+        "booking_info": "預約資料",
+        "booking_notice": "請注意：閣下之預約還未完成",
+        "booking_time": "預約就診時間",
+        "cancel_refund": "取消退款",
+        "cancer_promotion": "優惠碼「CA512」 即減$512",
+        "charge": "價格",
+        "click_book_now_to_check": "點擊立即預約查看",
+        "clinic": "診所",
+        "clinic_address": "診所地址",
+        "clinic_booking": "診所預約",
+        "clinic_booking_time": "預約就診時間",
+        "clinic_details": "診所主頁",
+        "clinic_intro": "診所簡介",
+        "clinic_list": "診所列表",
+        "clinic_open_time": "診所營業時間",
+        "confirm_appointment": "確定預約",
+        "confirm_your_booking_details": "覆核預約信息",
+        "consent_form": "知情同意",
+        "contact_us": "聯絡我們",
+        "create_order_time": "下單時間",
+        "current_binding_email": "當前綁定郵箱：",
+        "current_binding_phone": "現時綁定之手機號碼：",
+        "current_order_status": "目前訂單狀態",
+        "day_off": "休息",
+        "discount330": "輸入優惠碼減HK$330",
+        "doctor": "醫生",
+        "doctor_booking": "醫生預約",
+        "doctor_details": "醫生主頁",
+        "doctor_intro": "醫生簡介",
+        "doctor_list": "醫生列表",
+        "doctor_open_time": "醫生營業時間",
+        "enjoy_more_menber_discounts": "會員尊享更多優惠",
+        "enter_personal_info": "填寫帳戶資料",
+        "fail_reason": "失敗原因",
+        "faq": "常見問題",
+        "few_steps_to_finish_your_booking": "只需簡單幾個步驟就能完成預約",
+        "find_question_you_are_looking_for": "搜索您想找的問題",
+        "follow_us": "關注我們",
+        "get_code_again": "重新獲取",
+        "get_discount_price_after_enter_promo_code": "在付款頁面輸入優惠碼即顯示折後價",
+        "go_to_pay": "付款",
+        "had_read_agreement": "我已閱讀並確認同意",
+        "have_account_sign_in": "已有帳戶？立即登入",
+        "homepage": "主頁",
+        "included_Take2Prophecy": "已包含Take2 Prophecy™",
+        "know_more_about_prophecy": "了解更多Take2 Prophecy™ 篩查技術",
+        "know_screening": "了解篩查",
+        "limited_time_offer": "會員獨家優惠價",
+        "list_of_websites": "網站一覽",
+        "loading_term": "条款获取中...",
+        "navigation": "導航",
+        "offer_amount": "優惠金額",
+        "options": "選項",
+        "order": "訂單",
+        "order_error": "訂單異常",
+        "order_id": "訂單編號",
+        "order_info": "訂單信息",
+        "order_status": "訂單狀態",
+        "order_status_list": {
+            "0": "未付款",
+            "1": "已付款",
+            "2": "已失效",
+            "3": "退款中",
+            "4": "已退款",
+            "5": "已取消",
+            "6": "退款失敗"
+        },
+        "original_price": "原價",
+        "pay_amount": "付款金額",
+        "pay_with_promo_code": "付款用優惠碼享折扣",
+        "personal_info": "個人資料",
+        "physical_examination_female": "全面體檢套餐(女士)",
+        "physical_examination_male": "全面體檢套餐(男士)",
+        "please_select_available_date_time": "請選擇預約日期及時間",
+        "policy_and_agreement_list": {
+            "0": "Take2 Extra Care會員計劃私隱政策",
+            "1": "條款及細則",
+            "2": "Platform 個人資料收集聲明",
+            "3": "條款及細則",
+            "4": "私隱政策",
+            "5": "個人資料收集聲明",
+            "6": "知情同意"
+        },
+        "price": "費用",
+        "price_after_discount": "折後價",
+        "process_of_online_test_appointment": "網上預約流程",
+        "product_info": "產品資訊",
+        "product_list": "產品列表",
+        "professional_qualifications": "專業資格",
+        "promotion": {
+            "detail": "（在付款頁面輸入優惠碼即顯示折後價）",
+            "first_time_sign_up_get_discount": "網上預約享折扣優惠<1>$330*</1>",
+            "welcome_discount": "網上預約享折扣優惠<1>$330*</1>",
+            "welcome_offer": "【迎新優惠】"
+        },
+        "promotion_code": "優惠碼",
+        "promotion_use_function": "優惠碼使用方法",
+        "prophecy": "Take2 Prophecy™ 早期鼻咽癌篩查",
+        "prophecy_promotion": "優惠碼「PRO500」 即減$500",
+        "public_holiday": "公眾假期",
+        "qty": "數量",
+        "refund_amount": "退款金額",
+        "reserved": "©2023 Take2 Health 版權所有",
+        "select_date": "選擇日期",
+        "service_charge": "服務費用",
+        "sign_in_more_offer": "登入後更多優惠",
+        "submit_order": "提交訂單",
+        "take2_club_plan": "Take2 Extra Care 會員計劃",
+        "test_center": "檢測中心",
+        "test_center_phone": "診所電話",
+        "test_requisition_form": "初步評估",
+        "time_left_to_pay": "距離支付結束尚餘",
+        "track_us": "追蹤我們",
+        "user_service_agreement": "用戶服務協議",
+        "view_faq": "瀏覽常見問題",
+        "view_order_list": "查看訂單列表",
+        "web": "Take2 Health官方網站",
+        "welcome": "歡迎您",
+        "welcome_discount": "網上預約享折扣優惠$330 + 送防水藍牙喇叭",
+        "welcome_offer": "【本月2重賞】"
+    },
+    "options": {
+        "day_segments": {
+            "0": "上午",
+            "1": "下午",
+            "2": "晚上"
+        },
+        "order_list_types": {
+            "0": "全部",
+            "1": "待付款",
+            "2": "已付款",
+            "3": "退款"
+        }
+    },
+    "payMents": {
+        "atome_installments": {
+            "0": "第一期付款",
+            "1": "30天后付款",
+            "2": "60天后付款"
+        },
+        "atome_paragraphs": {
+            "0": "首次支付享HKD$40折扣",
+            "1": "分3期信用卡免息付款，原價{{currency}}${{originPrice}},得易健康平台優惠減{{currency}}${{promotion}},應付總額為{{currency}}${{payPrice}}（只限此優惠額度，且無需輸入優惠/促銷碼）",
+            "2": "*Atome 是主張「先享後付」的免息分期付款平台，用戶使用須受其條款約束。",
+            "3": "- 分3期信用卡免息付款"
+        },
+        "payMethods": {
+            "0": "支付方式"
+        },
+        "stripe_methods": {
+            "0": "銀行卡",
+            "1": "微信",
+            "2": "一次性支付，並支援使用優惠碼以尊享不同優惠，請於下一付款頁面輸入優惠碼"
+        },
+        "stripe_paragraphs": {
+            "0": "一次性支付，並支援使用優惠碼以尊享不同優惠，請於下一付款頁面輸入優惠碼",
+            "1": "微信支付只支援中國大陸微信帳戶"
+        }
+    },
+    "productPage": {
+        "NPC": {
+            "bottom_intro": {
+                "1": "也是女士當中較常發病於40-60歲的其中一種癌症<1>1</1>",
+                "2": "部分常見的早期鼻咽癌徵狀包括頭痛、鼻塞、耳鳴、聲音沙啞、鼻涕帶血絲、淋巴結腫大等"
+            },
+            "first_website_card_intro": {
+                "1": "採用次世代DNA測序技術，靈敏度>97%，假陽性率低至0.7%，冠絕同類測試。",
+                "2": "涵蓋本港常見癌症—包括大腸、胰臟、前列腺及卵巢癌等之腫瘤指標，及皇牌Take2 Prophecy™ 早期鼻咽癌篩查。"
+            },
+            "icon": {
+                "5": "患者若於晚期確診，很容易錯失治療黃金期，存活率也可大跌至四成<1>3</>",
+                "intro": {
+                    "1": "鼻咽癌是本港常見的癌症殺手之一<1>1</1>；",
+                    "2": "及20-44歲男士的頭號癌症<1>2</1>"
+                }
+            },
+            "intro": {
+                "2": "在醫學中，篩查是一種用於尋找尚未發現的疾病的策略。受測者可能沒有徵狀或者只有輕微徵狀， 而這些徵狀本身並不能用作確定診斷。受測者可以透過篩查去確定自己的身體狀況有沒有潛在風險，或會否在將來某個時候轉變為疾病，從而能夠及早干預和作出健康管理。",
+                "3": "病徵與一般傷風感冒相似，",
+                "4": "一般人難以分辨"
+            },
+            "special": {
+                "1": "採用次世代DNA測序技術",
+                "2": "靈敏度>97%<1>4,5</1>，假陽性率極低 (0.7%<1>5</1>)",
+                "3": "本地頂尖大學團隊研發",
+                "4": "經萬人臨床實證<1>4</1>，成果獲登上國際醫學期刊",
+                "5": "只須抽血，非入侵性的低風險篩查",
+                "6": "最快三個工作天有結果"
+            },
+            "steps": {
+                "0": {
+                    "content": "於Take2 Health網上平台，一站式選擇診所、醫生、篩查日期及時間進行預約",
+                    "title": "網上<1>1</1>Click登記"
+                },
+                "1": {
+                    "content": "過程簡單無創，無需入院進行，到診所抽血即可；服務點遍布全港九新界，住所、公司附近都做到",
+                    "title": "行<1>2</1>步去抽血"
+                },
+                "2": {
+                    "content": "最快三個工作天就有結果",
+                    "title": "<1>3</1>日有結果"
+                }
+            },
+            "table_intro": "Take2 Prophecy™ 早期鼻咽癌篩查\n表現遠勝其他同類測試：",
+            "table_title_intro": "Take2 Prophecy™ 早期鼻咽癌篩查，突破其他同類測試的局限，結合了PCR及次世代DNA測序技術 (NGS: Next-generation Sequencing)。透過比對DNA片段的長短和序列以找出當中差異，專門捕捉血液中的鼻咽癌DNA訊號；從而有效識別出早期鼻咽癌患者，結果準確可靠，將確診期數大幅推前， 提高其成功治療的可能性及存活率。",
+            "title": {
+                "1": "現在開始提防鼻咽癌",
+                "2": "Take2 Prophecy™ 早期鼻咽癌篩查，\n以極高靈敏度及極低假陽性率，提供最準確可靠的結果",
+                "4": "Take2 Prophecy™ 早期鼻咽癌篩查特點",
+                "5": "篩查過程非常簡單，只須跟著以下檢測3步，\n一個Lunch Time，就近診所即能完成",
+                "6": "嶄新技術提供最準確可靠結果"
+            }
+        },
+        "NPC_anchor1": "立即提防鼻咽癌",
+        "NPC_anchor2": "了解早期鼻咽癌篩查",
+        "NPC_anchor3": "篩查特點",
+        "NPC_anchor4": "篩查流程及常見問題",
+        "NPC_intro": "Take2 Prophecy™ 是一項採用次世代DNA測序技術的無創早期鼻咽癌篩查，靈敏度>97%，假陽性率低至0.7%，經臨床實證，結果準確可靠；只須抽血即有效識別出早期鼻咽癌患者，冠絕同類測試。",
+        "anchor": {
+            "0": "癌症與你有關",
+            "1": "為什麼癌症與你有關？",
+            "3": "篩查套餐特點",
+            "4": "常見問題",
+            "5": "全面癌症篩查套餐，適合任何年齡人士",
+            "6": "服務特點",
+            "8": "其他相關資訊及須知"
+        },
+        "anchor2": "篩查套餐詳情",
+        "attention": "聲明：Take2 Prophecy™ 早期鼻咽癌篩查以外的測試項目由與Take2 Health合作的實驗室和醫療機構提供。",
+        "back": {
+            "footer": "意味著患癌將變得更普遍， 所以即使是青壯年，也有需要定期進行篩查，提防癌症。"
+        },
+        "back_title": {
+            "1": "因癌症離世的人數佔香港整體死亡人數約百分之三十<1>1</1>",
+            "2": "平均每日有96人確診癌症<1>2</1>",
+            "3": "預計在 2030 年前香港每年癌症新增個案將增至逾 42 000 宗，相對現時水平，增幅約 35％<1>3</1>",
+            "4": "不少患者於癌症早期可能沒有明顯病徵",
+            "5": "或由於早期徵狀太普遍，容易與其他較輕微的疾病混淆",
+            "6": "例如早期鼻咽癌的徵狀與感冒、鼻敏感相似，患者同樣或會出現頭痛、耳鳴、鼻塞等病徵",
+            "7": "當察覺到病徵持續惡化時，癌細胞可能已經轉移，錯過治療的最佳時機",
+            "8": "煙酒應酬、體重指數過高、多肉少菜、缺乏運動等生活習慣，都是癌症的高危因素",
+            "9": "全球大約三分之一的癌症死亡個案都和上述提及的生活習慣有關<1>4</1>"
+        },
+        "cancer_promotion": "輸入優惠碼「CA512」，即減$512",
+        "health_check": {
+            "card": {
+                "1": {
+                    "intro": {
+                        "1": "很多疾病在早期不一定有明顯的病徵，定期身體檢查有助我們了解身體狀況的變化。",
+                        "2": "尤其是高血壓、糖尿病等代謝相關的毛病在本港有年輕化趨勢，",
+                        "3": "定期身體檢查有助及早發現。"
+                    }
+                },
+                "2": {
+                    "intro": {
+                        "1": "例如於早期和晚期確診癌症當中所需的化療、電療次數和療程會有所不同，因此治療費用也大有分別。",
+                        "2": "以一個月薪五萬港元的患者為例，",
+                        "3": "早期和晚期鼻咽癌療程的治療費用及收入損失的差別估算可達30萬港元以上*。",
+                        "4": "* 資料來源：“及早進行早期鼻咽癌篩查 家庭整體開支及損失可減低達六位數字”, Sunday Kiss, 6 December 2021"
+                    },
+                    "mobile": {
+                        "intro1": "例如於早期和晚期確診癌症所需的治療費用也大有分別，以一個月薪五萬港元的患者為例，",
+                        "intro2": "早期和晚期鼻咽癌療程的治療費用及收入損失的差別估算可達30萬港元以上*。"
+                    }
+                },
+                "3": "我們可以根據自身病歷、身體檢查的結果和專業醫護人員的建議，改善飲食方式、建立運動習慣、調整作息等，",
+                "4": "從而改善健康，更能減低將來患上患上心臟病和腦中風等致命疾病的機會。",
+                "title1": "及時發現隱患",
+                "title2": "減低醫療開支",
+                "title3": "減低患上心臟病和腦中風等致命疾病的風險"
+            },
+            "circle": {
+                "1": "技術來自本港大學頂尖基因研究的研發成果，經大型臨床實證<1>1</>",
+                "3": "靈敏度>97%<1>1,2</1>，假陽性率極低(0.7%<1>1</1>)"
+            },
+            "environment": "環境舒適",
+            "featrue": "技術來自香港頂尖大學團隊的研發成果，經大型臨床實證<1>1</1>",
+            "intro": "套餐包括：Take2 Prophecy™ 早期鼻咽癌篩查、其他癌症篩查、 血全像、肝腎功能、糖尿、血脂、甲狀腺、心臟功能及胸肺評估， 由註冊醫生跟進解釋報告，專業可靠。",
+            "location": "位置優越",
+            "mark": "注意事項：Take2 Prophecy™ 早期鼻咽癌篩查不建議已經進行器官移植人士、已患有其他癌症、自身免疫系統疾病、正接受全身性糖皮質激素及免疫抑制治療的人士使用，詳情請向醫護人員查詢。如有任何疑問，請向專業醫護人員查詢。",
+            "mark_mobile": "備註：Take2 Prophecy™ 早期鼻咽癌篩查以外的身體檢查項目由全仁醫務中心及其合作之實驗室提供。",
+            "promotion": "輸入優惠碼「NEW330」，即減$330",
+            "table_intro": "體檢套餐涵蓋高逾30項精選身體檢查項目，套餐包括：Take2 Prophecy™ 早期鼻咽癌篩查、其他癌症篩查、血全像、肝腎功能、糖尿、血脂、甲狀腺、心臟功能及胸肺評估，由註冊醫生跟進解釋報告，專業可靠。",
+            "table_preIntro": "隨著年紀漸長，我們的身體狀態和健康會有所改變。香港人生活忙碌，我們很多時會忽略照顧自己的身體；加上多肉少菜、缺乏運動和高壓的生活環境等，即使是年輕人，患上慢性疾病、甚至癌症的風險亦隨之而增加，因此我們確實有定期驗身的必要。",
+            "table_title": "精選檢查項目：",
+            "title": {
+                "1": "及早發現潛在健康問題，防患於未然"
+            }
+        },
+        "icon_intro": {
+            "1": "自六十年代起成爲",
+            "2": "本港頭號殺手",
+            "3": "患癌人數更不斷上升",
+            "4": "便血以為是痔瘡、",
+            "5": "出現病徵才檢查或已太遲",
+            "6": "鼻血以為是熱氣？",
+            "7": "現代生活方式",
+            "8": "增加患癌風險"
+        },
+        "intro": "涵蓋本港常見癌症—包括大腸、胰臟、肝臟、前列腺、乳房及卵巢之腫瘤指標，及靈敏度97%的皇牌Take2 Prophecy™ 早期鼻咽癌篩查。非入侵性檢查；專業醫護團隊跟進，貼心照顧個人需要；可網上預約，自由選擇服務地點，輕鬆掌握健康狀況。",
+        "intro2": "此套餐針對多種本港常見癌症進行抽血篩查，包括大腸癌、胰臟癌、肝癌、前列腺癌、乳癌及卵巢癌，\n及早發現，助你更有效抓緊治療黃金期。",
+        "product_price": "價錢：",
+        "product_simple_intro": "產品簡介",
+        "prophecy_promotion": "輸入優惠碼「PRO500」，即減$500",
+        "renfrence": "參考資料",
+        "service": {
+            "advance": {
+                "1": "準確可靠",
+                "2": "市場領先",
+                "3": "冠絕所有",
+                "4": "同類測試"
+            },
+            "circle": {
+                "1": "網上預約",
+                "2": "簡單快捷",
+                "3": "自選診所",
+                "4": "靈活配合",
+                "5": "專業醫護",
+                "6": "貼心跟進",
+                "7": "安全可靠",
+                "8": "信心保證"
+            },
+            "intro": {
+                "1": "靈敏度>97%<1>5,6</1>，假陽性率極低(0.7%<1>6</1>)",
+                "2": "運用次世代DNA測序技術，專門捕捉血液中的鼻咽癌DNA訊號",
+                "3": "技術來自香港頂尖大學團隊的研發成果，經大型臨床實證<1>5</1>"
+            },
+            "intro_title": "皇牌早期鼻咽癌篩查"
+        },
+        "table_intro": "精選重點項目包括：",
+        "title": {
+            "1": "為什麼癌症與你有關？"
+        }
+    },
+    "profile": {
+        "account_login": "帳戶登入",
+        "add": "新增",
+        "add_profile": "添加個人資料",
+        "add_profile_tip": "請填寫與身份證明文件相符的個人資料（將用於醫學報告）",
+        "call_change_profile": "請致電客戶服務熱線(+852) 3613 0536以更改個人資料。",
+        "change_pwd": "更改密碼",
+        "edit": "更改",
+        "give_advice": "提供意見",
+        "inform_set": "通知設定",
+        "my_appointment": "我的預約",
+        "my_report": "我的報告",
+        "receive_inform": "接收通知",
+        "receive_inform_tip": "透過電子郵件或短信隨時了解我們的新產品、服務和優惠。",
+        "redeem_gifts": "兌換禮品",
+        "required": "必填",
+        "tel_number": "電話號碼",
+        "unset": "未設定",
+        "wechat_number": "WeChat 號碼",
+        "whatsapp_number": "WhatsApp 號碼"
+    },
+    "promotion": {
+        "Healthcheck": "全面體檢套餐 助你了解身體狀況",
+        "atome_offers": "Atome新用戶獨家優惠",
+        "first_offers": "限時優惠：首次購買立即減HK$600！",
+        "summer_sales": "夏季特賣：購買您最喜歡的產品大減價！"
+    },
+    "tips": {
+        "account_verification": "帳戶驗證",
+        "and_agree_join": "並同意加入",
+        "appointment_success": "預約成功的短訊將發送到手機：{{phone}}",
+        "appointment_tips_list": {
+            "0": "您可隨時前往<1>預約訂單</1>查閱或更改預約。",
+            "1": "若選擇「早期鼻咽癌篩查」或「癌症篩查套餐」，請留意：抽血前無需空腹，可如常飲食及服用常服藥物。",
+            "10": "全仁醫務中心將於隨後1-2個工作天的辦公時間內，致電閣下以確認預約身體檢查的時間。預約時間以中心職員電話確認為準。",
+            "11": "因此計劃需驗血糖，所以必須於檢查前保持空腹8小時或以上, 只可飲適量清水。",
+            "12": "有關個別檢查項目的事前準備，請留意中心通知。",
+            "2": "若選擇「基本體檢套餐」、「全面體檢套餐 – 男士」或「全面體檢套餐 – 女士」，請留意：因此計劃需驗血糖，所以必須於檢查前保持空腹8小時或以上, 只可飲適量清水。有關個別檢查項目的事前準備，請留意中心通知。",
+            "3": "進行測試當天請帶同並出示預約時使用的身份證明文件及出示此電郵以核實個人身份。",
+            "4": "若閣下未能於上述時間到預約地點進行測試，請致電{{phone}}更改時間。",
+            "5": "如有任何疑問，歡迎致電 {{phone}}與我們的客户服務主任聯絡。",
+            "6": "如已預約診所或體檢中心未能在預約日子提供服務，我們將以電話方式與閣下聯絡。",
+            "7": "抽血前無需空腹，可如常飲食及服用常服藥物。",
+            "8": "如已預約診所或體檢中心未能在預約日子提供服務，我們將以電話方式與閣下聯絡。",
+            "9": "若閣下未能於上述時間到預約地點進行測試，請致電{{phone}}更改時間。請於預約日期前的3個工作天與我們聯絡以便提出更改，最終能否更改需視乎實際情況而定。"
+        },
+        "bank_refund_fail_reason": "發卡機構無法處理退款（如信用卡過期或失效等情況），請致電客戶服務熱線{{phone}}以辦理退款手續。",
+        "before_appointment": "早期鼻咽癌篩查不建議已經進行器官移植人士、已患有其他癌症、自身免疫系統疾病、正接受全身性糖皮質激素及免疫抑制治療的人士使用。",
+        "can_not_booking": "該時間段已被約滿，請重新選擇時間",
+        "can_not_find_page": "找不到頁面",
+        "can_not_get_data": "獲取不到數據",
+        "change_email": "在您修改電郵後，請使用新電郵以登入帳戶。",
+        "change_info_successfully": "成功修改信息！",
+        "change_password_successfully": "已成功修改密碼，請重新登入。",
+        "change_phone": "在您修改手機號碼後，請使用新號碼以登入帳戶。",
+        "charges": "檢測費用包括Take2 Prophecy™ 早期鼻咽癌篩查及醫生診金，請留意總費用可能隨所選醫生而變更。",
+        "check_account_info": "請再次審閱以下帳戶資料，如有錯誤，請按返回更改。",
+        "check_after_login": "請先登入再查看",
+        "check_booking_info": "請再次確認以下預約詳情，如有錯誤，請返回上頁重新選擇。",
+        "check_id_number_for_report": "請確保輸入正確以便顯示於報告上",
+        "checked_refund_fail": "已檢測無法退款",
+        "clinic_promotion_detail": "付款時輸入優惠碼即享優惠價",
+        "confirm_your_new_password": "確認新密碼",
+        "disclaimer": "免責聲明",
+        "doctor_promotion_detail": "付款時輸入優惠碼即享優惠價",
+        "double_check_booking_info": "請再次確認以下預約詳情，如有錯誤，請返回上頁重新選擇。",
+        "empty_data": "暫無{{field}}數據",
+        "empty_search_result": "暫無搜索結果",
+        "en_name": "例：Li Kin Hong（中國內地身份證上英文拼音全寫）",
+        "enter_promo_code_to_get_price_before_signin": "請先登入，在付款頁面輸入優惠碼以查看折後價",
+        "enter_your_phone_or_email": "請輸入您的手機號碼或電郵",
+        "first_time_sign_up_get_discount": "網上預約享折扣優惠$330 + 送防水藍牙喇叭",
+        "form_required": "”<1>*</1>”為必填。",
+        "friendly_reminder": "溫馨提示",
+        "get_back_password": "找回密碼",
+        "get_code_again": "如兩分鐘內沒有收到驗證碼，請重新獲取",
+        "get_start": "立即登記成為會員，尊享獨家優惠",
+        "go_to_top": "回到頂部",
+        "have_read_confirm_consent_form": "我已閱讀並確認同意。",
+        "hello": "歡迎",
+        "i_agree_join": "我已閱讀及同意{{field}}",
+        "i_know_appointment_immediately": "我已知悉，現可開始預約",
+        "if_personal_info_wrong": "如個人資料有誤，請致電{{phone}}聯絡客戶服務團隊予以更新。",
+        "lets_set_your_new_password": "請設置您的新密碼",
+        "main_tips": "注意事項",
+        "mobile_dialog": "手機版即將推出！現時請您使用電腦瀏覽桌面版網頁，或按<1>＂一般查詢＂</1>向客戶服務主任查詢。謝謝！",
+        "no_appointment_available": "此時段已約滿，請選擇其他時段",
+        "not_variable_appointment_time": "暫無可預約時間",
+        "order_name_and_find_closest_services_location": "列表依姓氏筆劃排序 尋找最接近您的篩查地點",
+        "order_time_out": "訂單支付已失效",
+        "pay_extra": "如出現陽性報告，病人如需醫生講解及寫轉介信需額外支付HK$300。",
+        "pay_success": "成功付款後，預約成功的短訊將發送到手機{{phone}}和電郵{{email}}，請注意查收。",
+        "please_check_network_and_refresh": "請檢查網絡狀態後刷新重試",
+        "please_complete_user_info": "請填寫個人信息",
+        "pull_off": "該{{field}}暫未能提供服務，請選擇其他{{field}}。",
+        "questions": "讓醫護人員在測試前更了解您的健康狀況。",
+        "refund_fail_reasion": "失敗原因: 由於閣下已完成測試，樣本已進入化驗程序並產生相關費用，按條款及細則恕無法受理退款申請。",
+        "refund_request_been_refused": "很抱歉！退款申請未能通過。原因：{{reason}}，如有任何疑問，請致電{{phone}}與我們的客戶服務主任聯絡。",
+        "refund_tips_list": {
+            "0": "退款手續所需時間約為10個工作日，通過審批後，款項將扣除銀行手續費後到賬，實際情況視乎個別銀行而定。",
+            "1": "我們將於10個工作天內處理您的退款申請，敬請耐心等候。"
+        },
+        "request_error": "請求錯誤",
+        "select_clinic_tips_before_signin": "<1>請先登入</1>，在付款頁面輸入優惠碼以查看折後價",
+        "select_doctor_tips_before_signin": "<1>請先登入</1>，在付款頁面輸入優惠碼以查看折後價",
+        "sign_up_successfully": "登記成功！",
+        "sort_by_area": "依地區筆劃排序",
+        "sort_by_name": "依姓氏筆劃排序",
+        "thank_your_for_your_purchase": "感謝您的惠顧！",
+        "time_out_close_order_automatically": "{{hour}}小時{{minute}}分{{second}}秒内未能完成支付，訂單會自動取消。",
+        "update_info": "請致電客戶服務熱線{{field}}以更改個人資料。",
+        "update_user_info": "請謹慎填寫個人資料，若資料有誤，請致電客戶服務熱線{{phone}}以進行修改。",
+        "verification_account_to_get_start": "從驗證帳戶開始。",
+        "welcome_back": "歡迎回來！",
+        "zh_name": "例：李健康（若外國護照沒有中文名字則無需填寫）"
+    },
+    "toast": {
+        "change_password_success": "成功修改密碼",
+        "gender_error": "您於全面體檢套餐選取之性別，與您個人資料填寫的性別不符，請重新選擇：全面體檢套餐-男士，僅供男士使用；全面體檢套餐-女士，僅供女士使用",
+        "pay_fail": "支付失敗，请重新支付。",
+        "please_enter_personal_info": "請填寫個人資料",
+        "promo_code_copy_success": "優惠碼複製成功！",
+        "select_toast": "請先選擇篩查項目再選擇預約時間"
+    },
+    "tutorial": {
+        "common": {
+            "mobile_mode": "手機版",
+            "web_mode": "網頁版"
+        },
+        "paragraphs": {
+            "0": "請緊記使用優惠碼(促銷碼)！",
+            "1": "步驟一：優惠碼置於主頁之產品簡介",
+            "2": "步驟二：在付款頁面按「添加促銷碼」位置輸入該優惠碼",
+            "3": "先按「添加促銷碼」，iOS用戶若沒有出現「添加促銷碼」，請按右圖紅圈圖像",
+            "4": "按「添加促銷碼」輸入相關促銷碼",
+            "5": "步驟三：按「添加促銷碼」輸入相關優惠碼",
+            "android": "步驟二：在付款頁面按「添加促銷碼」位置輸入該優惠碼",
+            "ios": "步驟二：在付款頁面按「添加促銷碼」或右圖紅圈圖像位置輸入該優惠碼"
+        }
+    },
+    "validation": {
+        "can_not_find_this_page": "无法找到该页面",
+        "cannot_be_empty": "請務必填寫{{field}}",
+        "consistent": "{{field}}一致",
+        "form_with_mark_required": "*以下帶星號為必須填寫項目",
+        "inconsistent": "{{field}}不一致",
+        "must_be_checked": "請勾選{{field}}",
+        "new_password_match": "舊密碼和新密碼不能一致",
+        "password_match": "密碼長度至少8位數，不超過15位數，當中必須包含數字(0-9)、大寫(A-Z)及小寫(a-z)英文字母。",
+        "personal_info_required": "必須填寫個人資料以跳到下頁付款",
+        "please_confirm_first": "請先確認",
+        "please_enter": "請輸入{{field}}",
+        "please_enter_correct_format_of": "請輸入正確{{field}}",
+        "please_select": "請選擇{{field}}"
+    }
+}
