@@ -11,7 +11,6 @@
     "gatsby-starter-default",
     "gatsby-theme-minimal",
     "example",
-    "my-cra-app",
-    "gatsby-auth0--spa"
+    "my-cra-app"
   ]
 }

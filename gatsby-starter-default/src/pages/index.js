@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
-import { Index } from "gatsby-auth0--spa"
+// import { Index } from "gatsby-auth0--spa"
 
 const links = [
   {
@@ -93,7 +93,7 @@ const IndexPage = () => (
         Welcome to <b>Gatsby!</b>
       </h1>
 
-      <Index />
+      {/* <Index /> */}
 
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}

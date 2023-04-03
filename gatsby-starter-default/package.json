@@ -15,8 +15,7 @@
     "react-dom": "^18.2.0",
     "gatsby-theme-minimal": "^1.0.0",
     "example": "^1.0.0",
-    "my-cra-app": "^0.1.0",
-    "gatsby-auth0--spa": "^0.1.0"
+    "my-cra-app": "^0.1.0"
   },
   "devDependencies": {
     "prettier": "^2.8.0"
