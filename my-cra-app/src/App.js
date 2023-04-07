@@ -18,6 +18,8 @@ import { useTranslation } from "react-i18next";
 import "./i18n";
 import { Provider } from "react-redux";
 import { store } from "../src/store";
+import { Router } from 'react-router-dom'
+import history from './utils/history';
 
 const localeMap = {
   en: enLocale,
@@ -36,9 +38,14 @@ const App = (lang) => {
   // );
   const { i18n } = useTranslation();
 
+
+
+  
   return (
     <>
+      {/* <Router history={history}> */}
       <Provider store={store}>
+      {/* <Router> */}
         {/* <CssBaseline /> */}
         <MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[lang]}>
           <nav>
@@ -57,6 +64,7 @@ const App = (lang) => {
         </MuiPickersUtilsProvider>
         {/* <EToastContainer autoClose={3000} hideProgressBar /> */}
       </Provider>
+      {/* </Router> */}
     </>
   );
 };

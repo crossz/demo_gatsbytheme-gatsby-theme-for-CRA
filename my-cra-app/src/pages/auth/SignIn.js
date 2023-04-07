@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { omit } from "lodash";
 // import { DIALING_CODES } from "../../utils/constant";
-// import { signIn } from "../../store/slices/authSlice";
+import { signIn } from "../../store/slices/authSlice";
 import { oriSchema } from "../../utils/schema";
 // import { useTranslateFormErrors } from "../../hooks";
 // import DialingCodeSelector from "../../components/DialingCodeSelector";
@@ -151,9 +151,9 @@ const SignIn = () => {
                 : ["verificationType", "email"];
             const pureValues = omit(values, omitKeys);
             console.log(pureValues);
-            // console.log(signIn);
-            // await dispatch(signIn(pureValues)).unwrap();
-            // await dispatch(getUserInfo()).unwrap();
+            console.log(signIn);
+            await dispatch(signIn(pureValues)).unwrap();
+            await dispatch(getUserInfo()).unwrap();
             TagManager.dataLayer({
               dataLayer: {
                 event: "signinComplete",

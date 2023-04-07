@@ -28,7 +28,8 @@ function SecondPageCRA() {
         <Button onClick={() => setlang("en")}>切换到en</Button> */}
 
 
-        <App isMobile={matches} lang={lang} />
+        {/* <App isMobile={matches} lang={lang} /> */}
+        <App />
 
 
         {/* <Index /> */}

@@ -26,6 +26,8 @@ import { authRoutes, userRoutes } from "../routers/routesConfig";
 // import MobileProfileSidebar from 'src/layout/MobileProfileSidebar'
 // import BookingTips from 'src/components/BookingTips'
 // import { useImageTranslation } from '../hooks'
+import { useNavigate } from 'react-router-dom';
+// import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -164,11 +166,18 @@ const Header = () => {
   //   setAnchorEl(null);
   // }, [userInfo]);
 
-  const handleSignIn = (params) => history.push("/signin");
-  const handleSignUp = (params) => history.push("/signup");
+  const navigate = useNavigate ();
+  // const history = useHistory ();
+
+  const handleSignIn = (params) => navigate("/signin");
+  // const handleSignIn = (params) => history.push("/signin");
+  const handleSignUp = (params) => navigate("/signup");
+  // const handleSignUp = (params) => history.push("/signup");
+
 
   const handleGoBack = () => {
-    history.goBack();
+    // history.goBack();
+    navigate(-1);
   };
 
   return (

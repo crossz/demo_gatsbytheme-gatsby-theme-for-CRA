@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 import { getStore, setStore, isExpired, APP_AUTH } from "../utils/auth";
-import { store } from "../store";
+// import { store } from "../store";
 import { signOut, setErrorStatus } from "../store/slices/authSlice";
 // import { matchPathCallback } from '../utils/history'
 import { authRoutes } from "../routers/routesConfig";
@@ -31,23 +31,23 @@ import { authRoutes } from "../routers/routesConfig";
 //   });
 // };
 
-// const refreshToken = () =>
-//   new Promise((resolve, reject) => {
-//     instance
-//       .get("/refreshToken", {
-//         params: { refreshToken: getStore("refreshToken") },
-//       })
-//       .then((res) => {
-//         const { token, refreshToken, expire, refreshExpire } = res.data;
-//         setStore("token", token, expire);
-//         setStore("refreshToken", refreshToken, refreshExpire);
-//         resolve(res.data);
-//       })
-//       .catch((err) => {
-//         // autoSignOut()
-//         reject(err);
-//       });
-//   });
+const refreshToken = () =>
+  new Promise((resolve, reject) => {
+    instance
+      .get("/refreshToken", {
+        params: { refreshToken: getStore("refreshToken") },
+      })
+      .then((res) => {
+        const { token, refreshToken, expire, refreshExpire } = res.data;
+        setStore("token", token, expire);
+        setStore("refreshToken", refreshToken, refreshExpire);
+        resolve(res.data);
+      })
+      .catch((err) => {
+        // autoSignOut()
+        reject(err);
+      });
+  });
 
 // 创建 axios 实例
 const instance = axios.create({

@@ -5,7 +5,8 @@
   "license": "0BSD",
   "scripts": {
     "develop": "yarn workspace gatsby-starter-default develop",
-    "build": "yarn workspace gatsby-starter-default build"
+    "build": "yarn workspace gatsby-starter-default build",
+    "clean": "yarn workspace gatsby-starter-default clean"
   },
   "workspaces": [
     "gatsby-starter-default",
