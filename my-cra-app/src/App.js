@@ -8,7 +8,7 @@ import AppRouter from "./routers";
 // WARNING 下面形式引入会报错
 // import MuiPickersUtilsProvider from "@material-ui/pickers/MuiPickersUtilsProvider";
 import { MuiPickersUtilsProvider } from "@material-ui/pickers";
-import getTheme from "./themes";
+// import getTheme from "./themes";
 import "./App.css";
 // import { useLoadImage } from "src/hooks/useLoadImage";
 import enLocale from "date-fns/locale/en-US";
@@ -18,8 +18,8 @@ import { useTranslation } from "react-i18next";
 import "./i18n";
 import { Provider } from "react-redux";
 import { store } from "../src/store";
-import { Router } from 'react-router-dom'
-import history from './utils/history';
+// import { Router } from 'react-router-dom'
+// import history from './utils/history';
 
 const localeMap = {
   en: enLocale,

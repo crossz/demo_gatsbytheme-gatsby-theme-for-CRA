@@ -4,7 +4,7 @@ import { getStore, setStore, isExpired, APP_AUTH } from "../utils/auth";
 // import { store } from "../store";
 import { signOut, setErrorStatus } from "../store/slices/authSlice";
 // import { matchPathCallback } from '../utils/history'
-import { authRoutes } from "../routers/routesConfig";
+// import { authRoutes } from "../routers/routesConfig";
 
 // let httpCode = {
 //   // 这里我简单列出一些常见的http状态码信息，可以自己去调整配置

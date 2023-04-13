@@ -18,11 +18,11 @@ import history from './src/utils/history'
 const wrapRootElement = ({ element }) => {
   return (
     // <BrowserRouter basename="/page-2a">
-    <BrowserRouter location={history.location}>
-      {/* <HashRouter> */}
+    // <BrowserRouter location={history.location}>
+      <HashRouter>
         {element}
-      {/* </HashRouter> */}
-    </BrowserRouter>
+      </HashRouter>
+    // </BrowserRouter>
     )
 }
 
