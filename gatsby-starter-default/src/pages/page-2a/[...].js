@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../../components/layout"
+import Seo from "../../components/seo"
 import { App } from "my-cra-app"
 // import { Index } from "gatsby-auth0--spa"
 import {
@@ -12,7 +12,7 @@ import {
   useTheme,
   Button,
 } from "@material-ui/core"
-import themes from "./_lightMuiTheme"
+import themes from "../_lightMuiTheme"
 
 function SecondPageCRA() {
   const theme = useTheme()

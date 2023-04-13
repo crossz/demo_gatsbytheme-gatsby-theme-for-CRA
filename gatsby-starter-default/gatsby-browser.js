@@ -9,20 +9,24 @@ import React from 'react'
 // import ReactDOMServer from "react-dom/server";
 import { HashRouter } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-import {createMemoryHistory} from 'history'
-import history from './src/utils/history'
 
+
+
+import {createMemoryHistory} from 'history'
 // const history = createMemoryHistory()
+
+// import history from './src/utils/history'
 
 
 const wrapRootElement = ({ element }) => {
   return (
-    // <BrowserRouter basename="/page-2a">
-    // <BrowserRouter location={history.location}>
-      <HashRouter>
+    // // <BrowserRouter location={history.location}>
+
+    <BrowserRouter basename="/page-2a">
+       {/* <HashRouter> */}
         {element}
-      </HashRouter>
-    // </BrowserRouter>
+       {/* </HashRouter> */}
+    </BrowserRouter>
     )
 }
 

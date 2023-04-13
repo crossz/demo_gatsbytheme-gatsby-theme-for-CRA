@@ -6,6 +6,7 @@
   "scripts": {
     "develop": "yarn workspace gatsby-starter-default develop",
     "build": "yarn workspace gatsby-starter-default build",
+    "serve": "yarn workspace gatsby-starter-default serve",
     "clean": "yarn workspace gatsby-starter-default clean"
   },
   "workspaces": [
