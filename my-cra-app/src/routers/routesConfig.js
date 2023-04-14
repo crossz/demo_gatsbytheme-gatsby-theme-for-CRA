@@ -39,14 +39,14 @@ import About from "../pages/About";
 
 const baseRoutes = [
   {
-    path: "/",
+    path: "/page-2a",
     component: HomePage,
     // mobileComponent: MobileHomepage,
     header: null,
     bgColor: "background.default",
   },
   {
-    path: "/about",
+    path: "/page-2a/about",
     component: About,
     // component: PcPageHolder,
     // mobileComponent: About,
@@ -60,7 +60,7 @@ const baseRoutes = [
 
 const authRoutes = [
   {
-    path: "/signin",
+    path: "/page-2a/signin",
     component: SignIn,
     // mobileComponent: MobileSignIn,
   },

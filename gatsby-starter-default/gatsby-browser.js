@@ -22,7 +22,8 @@ const wrapRootElement = ({ element }) => {
   return (
     // // <BrowserRouter location={history.location}>
 
-    <BrowserRouter basename="/page-2a">
+    // <BrowserRouter basename="/page-2a">
+    <BrowserRouter basename="/">
        {/* <HashRouter> */}
         {element}
        {/* </HashRouter> */}

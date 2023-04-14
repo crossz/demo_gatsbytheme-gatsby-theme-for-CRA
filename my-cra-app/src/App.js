@@ -51,12 +51,12 @@ const App = (lang) => {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/page-2a">Home</Link>
               </li>
               <li>
-                <Link to={`/about`}>About</Link>
+                <Link to={`/page-2a/about`}>About</Link>
               </li>
-              <Link to={`/signin`}>signin</Link>
+              <Link to={`/page-2a/signin`}>signin</Link>
               <li>{/* <Link to={`/private`}>Private</Link> */}</li>
             </ul>
           </nav>
