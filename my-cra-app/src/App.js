@@ -7,10 +7,12 @@ import RegisterScreen from './screens/RegisterScreen'
 import ProfileScreen from './screens/ProfileScreen'
 import HomeScreen from './screens/HomeScreen'
 import './App.css'
+import { Provider } from 'react-redux'
+import store from './app/store'
 
 function App() {
   return (
-    <div>
+    <Provider store={store}>
       <Header />
       <main className='container content'>
         <Routes>
@@ -20,7 +22,7 @@ function App() {
           <Route path='/page-2a/user-profile' element={<ProfileScreen />} />
         </Routes>
       </main>
-    </div>
+      </Provider>
   )
 }
 
