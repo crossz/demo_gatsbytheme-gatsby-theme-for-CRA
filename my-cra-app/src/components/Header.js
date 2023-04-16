@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
+import { Link as NavLink } from '@reach/router'
 import '../styles/header.css'
 
 const Header = () => {

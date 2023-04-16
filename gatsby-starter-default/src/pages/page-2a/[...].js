@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import { App } from "my-cra-app"
+// import { App } from "my-cra-app"
+import { App, Header, HomeScreen, ProfileScreen, LoginScreen, RegisterScreen } from "my-cra-app"
 // import { Index } from "gatsby-auth0--spa"
 import {
   Box,
@@ -14,8 +15,8 @@ import {
 } from "@material-ui/core"
 import themes from "../_lightMuiTheme"
 
-import { BrowserRouter as Router } from "react-router-dom";
-// import { Router } from "@reach/router";
+// import { BrowserRouter as Router } from "react-router-dom";
+import { Router } from "@reach/router";
 
 function SecondPageCRA() {
   const theme = useTheme()
@@ -33,10 +34,14 @@ function SecondPageCRA() {
 
         {/* <App isMobile={matches} lang={lang} /> */}
 
+        <Header />
         {/* <Router basename='/'> */}
         <Router>
           {/* <App path='/page-2a' /> */}
-          <App />
+          {/* <App /> */}
+          <HomeScreen path='/page-2a' />
+          <ProfileScreen path='/page-2a/user-profile' />
+
         </Router>
 
         {/* <Index /> */}
