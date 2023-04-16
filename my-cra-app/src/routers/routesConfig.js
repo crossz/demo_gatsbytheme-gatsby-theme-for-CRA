@@ -1,8 +1,8 @@
-import HomePage from "../pages/HomePage";
+import HomePage from "../crapages/HomePage";
 // import MobileHomepage from 'src/mobile/pages/Homepage'
 // import MobileClinicList from 'src/mobile/pages/ClinicList'
 // import MobileClinicDetail from 'src/mobile/pages/ClinicDetail'
-import SignIn from "../pages/auth/SignIn";
+import SignIn from "../crapages/auth/SignIn";
 // import MobileSignIn from 'src/mobile/pages/auth/SignIn'
 // import SignUp from 'src/pages/auth/SignUp'
 // import MobileSignUp from 'src/mobile/pages/auth/SignUp'
@@ -12,7 +12,7 @@ import SignIn from "../pages/auth/SignIn";
 // import MobileOrderList from 'src/mobile/pages/order/OrderList'
 // import OrderInfo from 'src/components/OrderInfo'
 // import MobileOrderInfo from 'src/mobile/pages/order/OrderInfo'
-import About from "../pages/About";
+import About from "../crapages/About";
 // import Follow from 'src/mobile/pages/FollowUs'
 // import ContactUs from 'src/mobile/pages/ContactUs'
 // import DoctorList from 'src/pages/Doctor'

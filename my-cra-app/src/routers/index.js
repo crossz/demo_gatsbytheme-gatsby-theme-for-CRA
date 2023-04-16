@@ -15,7 +15,7 @@ import {
 } from "react-router-dom";
 import { baseRoutes, authRoutes } from "./routesConfig";
 // import classnames from 'classnames'
-import NoFound from "../pages/404";
+import NoFound from "../crapages/404";
 // import MobileNoFound from 'src/mobile/pages/404'
 // import MobileErrorStatus from 'src/mobile/components/ErrorStatus'
 // import ProfileSidebar from 'src/layout/ProfileSidebar'

@@ -14,7 +14,7 @@ import './index.css'
 import './i18n'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import ScrollToTop from './layout/ScrollToTop'
+// import ScrollToTop from './layout/ScrollToTop'
 
 smoothscroll.polyfill()
 
