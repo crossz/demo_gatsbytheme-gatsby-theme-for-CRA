@@ -33,7 +33,8 @@ function SecondPageCRA() {
 
         {/* <App isMobile={matches} lang={lang} /> */}
 
-        <Router basename='/'>
+        {/* <Router basename='/'> */}
+        <Router>
           {/* <App path='/page-2a' /> */}
           <App />
         </Router>
