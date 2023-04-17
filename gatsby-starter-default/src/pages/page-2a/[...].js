@@ -14,7 +14,7 @@ import {
 } from "@material-ui/core"
 import themes from "../_lightMuiTheme"
 
-import { BrowserRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 // import { Router } from "@reach/router";
 
 function SecondPageCRA() {
@@ -34,10 +34,10 @@ function SecondPageCRA() {
         {/* <App isMobile={matches} lang={lang} /> */}
 
         {/* <Router basename='/'> */}
-        <Router>
+        {/* <Router> */}
           {/* <App path='/page-2a' /> */}
           <App />
-        </Router>
+        {/* </Router> */}
 
         {/* <Index /> */}
         
