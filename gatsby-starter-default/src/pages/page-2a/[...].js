@@ -16,7 +16,8 @@ import {
 import themes from "../_lightMuiTheme"
 
 // import { BrowserRouter as Router } from "react-router-dom";
-import { Router } from "@reach/router";
+// import { Router } from "@reach/router";
+import { Router } from "@gatsbyjs/reach-router";
 
 function SecondPageCRA() {
   const theme = useTheme()
