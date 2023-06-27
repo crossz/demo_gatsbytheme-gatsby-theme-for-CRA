@@ -9,7 +9,8 @@ MicroFontEnd Demo - 基于 Gatsby Theme + Yarn workspace
    https://github.com/gatsbyjs/gatsby-starter-theme-workspace
 
 3. CRA demo: exported `App` React component to be imported into Gatsby page.
-   https://reactjs.org/docs/create-a-new-react-app.html
+   https://reactjs.org/docs/create-a-new-react-app.html ->
+   https://create-react-app.dev/
 
 4. 调整整合到统一的 theme workspace 下.
 
