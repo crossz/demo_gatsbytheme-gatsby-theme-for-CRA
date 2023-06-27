@@ -25,7 +25,7 @@ function SecondPageCRA() {
 
   return (
     <ThemeProvider theme={themes}>
-      <Layout>
+      {/* <Layout> */}
         <h1>Hi from the hybrid second page</h1>
         {/* <p>Welcome to page 2 with CRA component</p>
         <Button onClick={() => setlang("cn")}>切换到中文</Button>
@@ -34,7 +34,7 @@ function SecondPageCRA() {
 
         {/* <App isMobile={matches} lang={lang} /> */}
 
-        <Header />
+        {/* <Header /> */}
         {/* <Router basename='/'> */}
         {/* <Router> */}
           {/* <App path='/page-2a' /> */}
@@ -50,7 +50,7 @@ function SecondPageCRA() {
         <p>Welcome to page 2 with CRA component</p>
 
         <Link to="/">Go back to the homepage</Link>
-      </Layout>
+      {/* </Layout> */}
     </ThemeProvider>
   )
 }
