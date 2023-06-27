@@ -41,6 +41,8 @@ function SecondPageCRA() {
           {/* <App path='/page-2a' /> */}
           {/* <App /> */}
           <HomeScreen path='/page-2a' />
+          <LoginScreen path='/page-2a/login' />
+          <RegisterScreen path='/page-2a/register' />
           <ProfileScreen path='/page-2a/user-profile' />
 
         </Router>

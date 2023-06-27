@@ -1,7 +1,9 @@
 import React from 'react'
+import '../styles/header.css'
+
+// NOTE: the 'router' used in React SPA have to be changed to the router gatsby use.
 // import { NavLink } from 'react-router-dom'
 import { Link as NavLink } from '@reach/router'
-import '../styles/header.css'
 
 const Header = () => {
   return (
