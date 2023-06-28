@@ -1,5 +1,7 @@
 .cache
-public
 node_modules
+
+gatsby-starter-default/public
+
 
 .DS_Store
