@@ -1,4 +1,12 @@
-MicroFontEnd Demo - 基于 Gatsby Theme + Yarn workspace
+MicroFontEnd Monorepo Demo - 基于 Gatsby Theme + Yarn workspace
+
+Branches using router of 'react-router-dom' v6 are ~~just~~ for demo and the 'my-cra-app' SPA can ~~not~~ be used independently. This is different to the branches using old 'reach router', which is not compatible with the new 'react-router-dom' v6.
+
+Here are 2 branches:
+1. main-clientonlyroutes-reactrouterv6-with-full-redux-usage: can login under the mode of `gatsby develop`, by using the backend from react-redux-user-auth repo(mongodb used); Usage of 'process.env.NODE_ENV' is ignored for this simple demo -> ok for `gatsby build` with added condition of `type of window`.
+2. main-clientonlyroutes-reactrouterv6: no real backend used and the redux toolkit used partially, demo works under the mode of `gatsby build`, as the login/localstorage/state etc are not really used.
+
+---
 
 参考官网的几个 demo,然后整合
 

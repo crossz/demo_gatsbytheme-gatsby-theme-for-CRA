@@ -1,8 +1,8 @@
 {
   "name": "my-cra-app",
-  "proxy": "http://127.0.0.1:5000",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/page-2a/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
