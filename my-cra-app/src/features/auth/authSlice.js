@@ -2,7 +2,10 @@ import { createSlice } from '@reduxjs/toolkit'
 import { registerUser, userLogin } from './authActions'
 
 // initialize userToken from local storage
-const userToken = localStorage.getItem('userToken')
+// const userToken = localStorage.getItem('userToken')
+//   ? localStorage.getItem('userToken')
+//   : null
+const userToken = typeof window !== 'undefined' && localStorage.getItem('userToken')
   ? localStorage.getItem('userToken')
   : null
 
@@ -19,7 +22,8 @@ const authSlice = createSlice({
   initialState,
   reducers: {
     logout: (state) => {
-      localStorage.removeItem('userToken') // delete token from storage
+      // localStorage.removeItem('userToken') // delete token from storage
+      typeof window !== 'undefined' && localStorage.removeItem('userToken') // delete token from storage
       state.loading = false
       state.userInfo = null
       state.userToken = null
