@@ -1,17 +1,47 @@
 import React from 'react'
-// import { NavLink } from 'react-router-dom'
-import { Link as NavLink } from '@reach/router'
+import { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { useGetUserDetailsQuery } from '../app/services/auth/authService'
+import { logout, setCredentials } from '../features/auth/authSlice'
 import '../styles/header.css'
 
+// import { NavLink } from 'react-router-dom'
+// import { Link as NavLink } from "@reach/router";
+import { Link as NavLink } from "@gatsbyjs/reach-router";
+
 const Header = () => {
+  const { userInfo } = useSelector((state) => state.auth)
+  const dispatch = useDispatch()
+
+  // automatically authenticate user if token is found
+  const { data, isFetching } = useGetUserDetailsQuery('userDetails', {
+    pollingInterval: 900000, // 15mins
+  })
+
+  useEffect(() => {
+    if (data) dispatch(setCredentials(data))
+  }, [data, dispatch])
+
   return (
     <header>
       <div className='header-status'>
-        <span>You're not logged in</span>
+        <span>
+          {isFetching
+            ? `Fetching your profile...`
+            : userInfo !== null
+            ? `Logged in as ${userInfo.email}`
+            : "You're not logged in"}
+        </span>
         <div className='cta'>
-          <NavLink className='button' to='/page-2a/login'>
-            Login
-          </NavLink>
+          {userInfo ? (
+            <button className='button' onClick={() => dispatch(logout())}>
+              Logout
+            </button>
+          ) : (
+            <NavLink className='button' to='/page-2a/login'>
+              Login
+            </NavLink>
+          )}
         </div>
       </div>
       <nav className='container navigation'>

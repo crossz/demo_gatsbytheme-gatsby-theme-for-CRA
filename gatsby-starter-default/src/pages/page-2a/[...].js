@@ -17,6 +17,7 @@ import themes from "../_lightMuiTheme"
 
 // import { BrowserRouter as Router } from "react-router-dom";
 // import { Router } from "@reach/router";
+import { Router } from "@gatsbyjs/reach-router";
 
 function SecondPageCRA() {
   const theme = useTheme()
@@ -36,10 +37,15 @@ function SecondPageCRA() {
 
         <Header />
         {/* <Router basename='/'> */}
-        {/* <Router> */}
+        <Router>
           {/* <App path='/page-2a' /> */}
-          <App />
-        {/* </Router> */}
+          {/* <App /> */}
+          <HomeScreen path='/page-2a' />
+          <LoginScreen path='/page-2a/login' />
+          <RegisterScreen path='/page-2a/register' />
+          <ProfileScreen path='/page-2a/user-profile' />
+
+        </Router>
 
         {/* <Index /> */}
         
