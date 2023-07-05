@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-import Layout from "../../components/layout"
+// import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 // import { App } from "my-cra-app"
 import { App, Header, HomeScreen, ProfileScreen, LoginScreen, RegisterScreen } from "my-cra-app"
@@ -20,7 +20,7 @@ import themes from "../_lightMuiTheme"
 
 function SecondPageCRA() {
   const theme = useTheme()
-  const matches = useMediaQuery(theme.breakpoints.down("xs"))
+  // const matches = useMediaQuery(theme.breakpoints.down("xs"))
   const [lang, setlang] = useState("en")
 
   return (

@@ -35,15 +35,22 @@ const wrapPageElement = ({ element, props }) => {
   console.log(`----==== props.location: ${JSON.stringify(props)}`)
 
   // if (props.path === '/page-2a/*')
-  if (props.location.pathname === '/page-2a/[...]/')
-  return(
-    <Layout {...props}>
-      <Router basename="/">
-         {/* <HashRouter> */}
-          {element}
-         {/* </HashRouter> */}
-      </Router>
+  if (props.location.pathname === '/page-2a/[...]/') {
+    return(
+      <Layout {...props}>
+        <Router basename="/">
+           {/* <HashRouter> */}
+            {element}
+          {/* </HashRouter> */}
+        </Router>
       </Layout>
-      )
+    ) 
+  } else {
+    return(
+      <Layout>
+        {element}
+      </Layout>
+    )
+  }
 }
 export { wrapPageElement }
