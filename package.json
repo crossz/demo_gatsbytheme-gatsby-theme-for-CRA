@@ -13,6 +13,7 @@
     "gatsby-starter-default",
     "gatsby-theme-minimal",
     "example",
-    "my-cra-app"
+    "my-cra-app",
+    "gatsby-theme-cra"
   ]
 }

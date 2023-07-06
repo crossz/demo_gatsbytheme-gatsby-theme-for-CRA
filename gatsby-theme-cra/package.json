@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-theme-cra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cross Z",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "gatsby": "^5.3.3"
+  },
+  "peerDependencies": {
+    "gatsby": "^5.0.0"
+  }
+}
