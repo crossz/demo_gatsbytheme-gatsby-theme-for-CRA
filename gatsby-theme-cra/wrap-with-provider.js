@@ -2,7 +2,7 @@ import React from "react"
 import { Provider } from "react-redux"
 
 // import createStore from "./src/state/createStore"
-import store from '../my-cra-app/src/app/store'
+import store from './src/app/store'
 
 // eslint-disable-next-line react/display-name,react/prop-types
 export default ({ element }) => {

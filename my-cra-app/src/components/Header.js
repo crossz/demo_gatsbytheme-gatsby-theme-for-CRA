@@ -1,13 +1,10 @@
 import React from 'react'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { NavLink } from 'react-router-dom'
 import { useGetUserDetailsQuery } from '../app/services/auth/authService'
 import { logout, setCredentials } from '../features/auth/authSlice'
 import '../styles/header.css'
-
-// import { NavLink } from 'react-router-dom'
-// import { Link as NavLink } from "@reach/router";
-import { Link as NavLink } from "@gatsbyjs/reach-router";
 
 const Header = () => {
   const { userInfo } = useSelector((state) => state.auth)

@@ -1,10 +1,10 @@
-Monorepo Demo - 基于 Gatsby Theme + Yarn workspace
+MicroFontEnd Monorepo Demo - 基于 Gatsby Theme + Yarn workspace
 
-Branches using router of '@reach/router' or '@gatsbyjs/reach-router' are just for demo as the 'my-cra-app' SPA can not be used indepently, as currently Gatsby.js uses old 'reach router', which is not compatible with the new 'react-router-dom' v6.
+Branches using router of 'react-router-dom' v6 are ~~just~~ for demo and the 'my-cra-app' SPA can ~~not~~ be used independently. This is different to the branches using old 'reach router', which is not compatible with the new 'react-router-dom' v6.
 
 Here are 2 branches:
-1. main-clientonlyroutes-@reach/routerv1-with-full-redux-usage: can login under the mode of `gatsby develop`, by using the backend from react-redux-user-auth repo(mongodb used); Usage of 'process.env.NODE_ENV' is ignored for this simple demo -> ok for `gatsby build` with added condition of `type of window`.
-2. main-clientonlyroutes-@reach/routerv1: no real backend used and the redux toolkit used partially, demo works under the mode of `gatsby build`, as the login/localstorage/state etc are not really used.
+1. main-clientonlyroutes-reactrouterv6-with-full-redux-usage: can login under the mode of `gatsby develop`, by using the backend from react-redux-user-auth repo(mongodb used); Usage of 'process.env.NODE_ENV' is ignored for this simple demo -> ok for `gatsby build` with added condition of `type of window`.
+2. main-clientonlyroutes-reactrouterv6: no real backend used and the redux toolkit used partially, demo works under the mode of `gatsby build`, as the login/localstorage/state etc are not really used.
 
 ---
 
@@ -17,7 +17,7 @@ Here are 2 branches:
    https://github.com/gatsbyjs/gatsby-starter-theme-workspace
 
 3. CRA demo: exported `App` React component to be imported into Gatsby page.
-   [old CRA doc](https://reactjs.org/docs/create-a-new-react-app.html) -> [demo of redux for user auth](https://github.com/crossz/react-redux-user-auth)
+   [old CRA doc](https://reactjs.org/docs/create-a-new-react-app.html) -> [demo of redux for user auth](https://github.com/crossz/react-redux-user-auth), change the server port to 5001 on Mac.
 
 4. 调整整合到统一的 theme workspace 下.
 

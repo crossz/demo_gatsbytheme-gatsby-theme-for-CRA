@@ -1,11 +1,11 @@
 import axios from 'axios'
 import { createAsyncThunk } from '@reduxjs/toolkit'
 
-// NOTE: for `gatsby build`, the env variables' fetching is ignored here.
 const backendURL =
   process.env.NODE_ENV !== 'production'
     ? 'http://127.0.0.1:5001'
-    : process.env.GATSBY_APP_SERVER_URL
+    // : process.env.REACT_APP_SERVER_URL
+    : 'http://127.0.0.1:5001'
 
 export const userLogin = createAsyncThunk(
   'auth/login',
@@ -24,9 +24,10 @@ export const userLogin = createAsyncThunk(
         config
       )
 
-      //store user's token in local storage
+      // store user's token in local storage
       // localStorage.setItem('userToken', data.userToken)
       typeof window !== 'undefined' && localStorage.setItem('userToken', data.userToken)
+
 
       return data
     } catch (error) {

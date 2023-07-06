@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
-import Layout from "../../components/layout"
+// import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 // import { App } from "my-cra-app"
 import { App, Header, HomeScreen, ProfileScreen, LoginScreen, RegisterScreen } from "my-cra-app"
@@ -17,16 +17,15 @@ import themes from "../_lightMuiTheme"
 
 // import { BrowserRouter as Router } from "react-router-dom";
 // import { Router } from "@reach/router";
-import { Router } from "@gatsbyjs/reach-router";
 
 function SecondPageCRA() {
   const theme = useTheme()
-  const matches = useMediaQuery(theme.breakpoints.down("xs"))
+  // const matches = useMediaQuery(theme.breakpoints.down("xs"))
   const [lang, setlang] = useState("en")
 
   return (
     <ThemeProvider theme={themes}>
-      <Layout>
+      {/* <Layout> */}
         <h1>Hi from the hybrid second page</h1>
         {/* <p>Welcome to page 2 with CRA component</p>
         <Button onClick={() => setlang("cn")}>切换到中文</Button>
@@ -35,17 +34,12 @@ function SecondPageCRA() {
 
         {/* <App isMobile={matches} lang={lang} /> */}
 
-        <Header />
+        {/* <Header /> */}
         {/* <Router basename='/'> */}
-        <Router>
+        {/* <Router> */}
           {/* <App path='/page-2a' /> */}
-          {/* <App /> */}
-          <HomeScreen path='/page-2a' />
-          <LoginScreen path='/page-2a/login' />
-          <RegisterScreen path='/page-2a/register' />
-          <ProfileScreen path='/page-2a/user-profile' />
-
-        </Router>
+          <App />
+        {/* </Router> */}
 
         {/* <Index /> */}
         
@@ -56,7 +50,7 @@ function SecondPageCRA() {
         <p>Welcome to page 2 with CRA component</p>
 
         <Link to="/">Go back to the homepage</Link>
-      </Layout>
+      {/* </Layout> */}
     </ThemeProvider>
   )
 }

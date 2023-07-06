@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 // import { Index } from "gatsby-auth0--spa"
@@ -49,6 +49,20 @@ const samplePageLinks = [
     description:
       "A simple example of linking to another React Component within a Gatsby site",
   },
+  {
+    text: "Page 2a Home",
+    url: "page-2a/home",
+    badge: false,
+    description:
+      "A react exported component inserted into a gatsby page, and got prerended.",
+  },
+  {
+    text: "Example of gatsby-theme",
+    url: "example",
+    badge: false,
+    description:
+      "A independent gatsby site as a gatstby theme merged into the main site.",
+  },
   { text: "TypeScript", url: "using-typescript" },
   { text: "Server Side Rendering", url: "using-ssr" },
   { text: "Deferred Static Generation", url: "using-dsg" },
@@ -78,7 +92,7 @@ const moreLinks = [
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
@@ -126,7 +140,7 @@ const IndexPage = () => (
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
     ))}
-  </Layout>
+  </>
 )
 
 /**

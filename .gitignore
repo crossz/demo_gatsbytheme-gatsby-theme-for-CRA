@@ -2,6 +2,7 @@
 node_modules
 
 gatsby-starter-default/public
+gatsby-theme-cra/public
 
 
 .DS_Store

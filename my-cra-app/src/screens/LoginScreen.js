@@ -1,22 +1,19 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-
+import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { userLogin } from '../features/auth/authActions'
 import { useEffect } from 'react'
 import Error from '../components/Error'
 import Spinner from '../components/Spinner'
 
-// import { useNavigate } from 'react-router-dom'
-import { navigate } from "@gatsbyjs/reach-router";
-
 const LoginScreen = () => {
-  // const navigate = useNavigate() // NOTE: adjusted to be compatible to reachrouter
   const { loading, userInfo, error } = useSelector((state) => state.auth)
   const dispatch = useDispatch()
 
   const { register, handleSubmit } = useForm()
 
+  const navigate = useNavigate()
 
   // redirect authenticated user to profile screen
   useEffect(() => {
