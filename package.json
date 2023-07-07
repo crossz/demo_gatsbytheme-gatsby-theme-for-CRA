@@ -10,10 +10,7 @@
     "clean": "yarn workspace gatsby-starter-default clean"
   },
   "workspaces": [
-    "gatsby-starter-default",
-    "gatsby-theme-minimal",
-    "example",
-    "my-cra-app",
-    "gatsby-theme-cra"
+    "packages/*",
+    "site/*"
   ]
 }
