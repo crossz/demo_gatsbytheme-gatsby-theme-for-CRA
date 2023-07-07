@@ -17,7 +17,7 @@ Here are 2 branches:
    https://github.com/gatsbyjs/gatsby-starter-theme-workspace
 
 3. CRA demo: exported `App` React component to be imported into Gatsby page.
-   [old CRA doc](https://reactjs.org/docs/create-a-new-react-app.html) -> [demo of redux for user auth](https://github.com/crossz/react-redux-user-auth)
+   [old CRA doc](https://reactjs.org/docs/create-a-new-react-app.html) -> [demo of redux for user auth](https://github.com/crossz/react-redux-user-auth), change the server port to 5001 on Mac.
 
 4. 调整整合到统一的 theme workspace 下.
 
