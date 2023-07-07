@@ -17,7 +17,6 @@ module.exports = {
   plugins: [
     { resolve: `gatsby-theme-minimal`, options: {} },
     `example`,
-    `my-cra-app`,
     `gatsby-theme-cra`,
     `gatsby-plugin-image`,
     {
