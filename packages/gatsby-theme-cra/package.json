@@ -12,8 +12,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
-    "gatsby": "^5.3.3"
+    "gatsby": "^5.3.3",
+    "gatsby-theme-minimal": "1.0.0"
   },
   "peerDependencies": {
     "gatsby": "^5.0.0"
