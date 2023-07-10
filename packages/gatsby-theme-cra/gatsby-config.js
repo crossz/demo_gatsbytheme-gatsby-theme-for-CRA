@@ -15,6 +15,6 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
-    `my-cra-app`,
+    `cra-app`,
   ],
 }
